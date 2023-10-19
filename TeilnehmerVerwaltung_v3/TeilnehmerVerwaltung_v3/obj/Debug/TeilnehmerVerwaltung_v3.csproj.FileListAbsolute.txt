@@ -1,0 +1,2 @@
+C:\MyCode\Homework 10.7.23\TeilnehmerVerwaltung_v3\TeilnehmerVerwaltung_v3\obj\Debug\TeilnehmerVerwaltung_v3.csproj.AssemblyReference.cache
+C:\MyCode\Homework 10.7.23\TeilnehmerVerwaltung_v3\TeilnehmerVerwaltung_v3\obj\Debug\TeilnehmerVerwaltung_v3.csproj.CoreCompileInputs.cache

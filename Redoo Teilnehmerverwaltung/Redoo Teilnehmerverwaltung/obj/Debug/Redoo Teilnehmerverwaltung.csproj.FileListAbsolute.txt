@@ -1,0 +1,2 @@
+C:\MyCode\Homework 10.7.23\Redoo Teilnehmerverwaltung\Redoo Teilnehmerverwaltung\obj\Debug\Redoo Teilnehmerverwaltung.csproj.AssemblyReference.cache
+C:\MyCode\Homework 10.7.23\Redoo Teilnehmerverwaltung\Redoo Teilnehmerverwaltung\obj\Debug\Redoo Teilnehmerverwaltung.csproj.CoreCompileInputs.cache
