@@ -11,7 +11,7 @@ namespace Redoo_Teilnehmerverwaltung
     {
         static void Main(string[] args)
         {
-            Teilnhemer teilnehmer = new Teilnhemer();
+            Teilnhemer teilnehmer = new Teilnehmer();
             string headertext = "Teilnehmer Verwaltung v3.0"
 
                 CreateHeader(headertext, ConsoleColor, Blue, true);
@@ -22,7 +22,7 @@ namespace Redoo_Teilnehmerverwaltung
             DisplayStudentInfo(teilnehmer);
         }
 
-        private static void DisplayStudentInfo(Teilnhemer studentInfo)
+        private static void DisplayStudentInfo(Teilnehmer studentInfo)
         {
             Console.WriteLine("\nDie Teilnehmerdater: \n");
 
@@ -58,15 +58,15 @@ namespace Redoo_Teilnehmerverwaltung
             Console.Title = headertext;
         }
 
-        private static Teilnhemer GetStudentInfo()
+        private static Teilnehmer GetStudentInfo()
         {
-            Teilnhemer teilnhemer;
+            Teilnehmer teilnehmer;
 
-            teilnhemer.Name = ReadString("\tVorname: ");
-            teilnhemer.Nachname = ReadString("\tNachname: ");
-            teilnhemer.Geburtsdatum = ReadDateTime("\tGeburtsdatum: ");
-            teilnhemer.Plz = ReadInt("\tPLZ: ");
-            teilnhemer.Ort = ReadString("\tWohnort: ");
+            teilnehmer.Name = ReadString("\tVorname: ");
+            teilnehmer.Nachname = ReadString("\tNachname: ");
+            teilnehmer.Geburtsdatum = ReadDateTime("\tGeburtsdatum: ");
+            teilnehmer.Plz = ReadInt("\tPLZ: ");
+            teilnehmer.Ort = ReadString("\tWohnort: ");
 
         }
 
@@ -144,9 +144,9 @@ namespace Redoo_Teilnehmerverwaltung
         }
     }
 
-    internal class Teilnhemer
+    internal class Teilnehmer
     {
-        public Teilnhemer()
+        public Teilnehmer()
         {
         }
     }
